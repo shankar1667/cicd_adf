@@ -1,0 +1,20 @@
+{
+	"name": "ds_sql_curre",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ds_Nplus rec_sql",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"sname": {
+				"type": "string"
+			},
+			"tname": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": []
+	}
+}
