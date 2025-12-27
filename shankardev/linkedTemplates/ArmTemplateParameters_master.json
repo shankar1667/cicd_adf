@@ -1,0 +1,45 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "shankardev"
+		},
+		"ds_Nplus rec_sql_password": {
+			"value": ""
+		},
+		"ds_ncols_n_plus rec_accountKey": {
+			"value": ""
+		},
+		"ls_blob_accountKey": {
+			"value": ""
+		},
+		"ls_out_accountKey": {
+			"value": ""
+		},
+		"ds_Nplus rec_sql_properties_typeProperties_server": {
+			"value": "shankar-server.database.windows.net"
+		},
+		"ds_Nplus rec_sql_properties_typeProperties_database": {
+			"value": "shankar_db"
+		},
+		"ds_Nplus rec_sql_properties_typeProperties_userName": {
+			"value": "sqladmin"
+		},
+		"ds_ncols_n_plus rec_properties_typeProperties_url": {
+			"value": "https://shankarblob2725.dfs.core.windows.net/"
+		},
+		"ls_blob_properties_typeProperties_url": {
+			"value": "https://shankarblob2725.dfs.core.windows.net/"
+		},
+		"ls_out_properties_typeProperties_url": {
+			"value": "https://shankaradlsgen22725.dfs.core.windows.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
